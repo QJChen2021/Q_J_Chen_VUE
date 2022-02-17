@@ -5,7 +5,7 @@
     <ul>
       <li v-for="(item,index) in listData">
         <el-image :src="item.creatImg" :preview-src-list="src" @click="srcListLink(item)"></el-image>
-        <p class="show">拍摄于 {{item.creatTime}}</p>
+        <p class="show">拍摄时间： {{item.creatTime}}</p>
         <p class="show">拍摄地点：{{item.creatLocation}}</p>
       </li>
     </ul>
